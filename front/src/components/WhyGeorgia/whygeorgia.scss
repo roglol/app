@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+}
+.checkbox-image{
+    width: 25% ;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.georgia-information-mobile{
+    display: none;
+}
+.georgia-information-description{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+@keyframes flipAnimation{
+    0%{
+      opacity: 0.2;
+      transform: rotateX(90deg);
+    }
+    50%{
+      opacity: 0.5;
+      transform: rotateX(0deg);
+    }
+    100%{
+      opacity: 0.9;
+      transform: rotateX(0deg);
+    }
+  }
+
+.transition{
+    animation-name: flipAnimation;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+}
+.blue-text{
+    color: #3068f3
+}
+.gray-text{
+    color: gray;
+    width: 60%;
+}
+
+.information-navigation{
+    display: none;
+    justify-content: center;
+    height: 20%;
+}
+.left{
+    border-right: 1px solid #f2f2f2;
+    height: 100%;
+}
+.left, .right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left img, .right img{
+    width: 24px;
+    height: 24px;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 40px;
+}
+.carousel-status{ 
+    display: none;
+}
+.header-text{
+    width: 149px;
+  height: 32px;
+  color: #3068f3;
+  font-family: "Poppins";
+  font-size: 20px;
+  margin-left:30px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.georgia-information-nav li {
+    color: #65656d;
+    font-family: "Poppins";
+    font-size: 11px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    line-height: 30px;
+}
+.flags{
+    width: 20%;
+    position: relative;
+}
+.oval{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    background: #fff;
+}
+li svg{
+border: 100%;
+border: 1px solid #d2d2d2;
+padding : 3px;
+
+}
+.oval, .oval1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e2e7f2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.georgia-information-nav li:hover{
+    color: #3068f3;;
+}
+.check_circ{
+    width: 24px !important;
+    height: 24px;
+    padding-right: 20px;
+    opacity: 0.2;
+}
+.georgia-background{
+    width: 100%;
+    position: relative;
+}
+
+.georgia-container{
+    min-width: 400px;
+    position: absolute;
+    top: 20%;   
+    left: 11%;
+    width: 33%;
+    height: 605px;
+    background: #fff;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+}
+
+.georgia-background{
+    margin-top: 100px;
+}
+
+
+.thumbs-wrapper{
+    display: none !important;
+}
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+    transition: all .25s ease-in;
+    opacity: .4;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    background: 0 0;
+    border: 0;
+    font-size: 32px;
+    cursor: pointer;
+}
+.carousel .control-arrow:hover {
+    opacity: 1;
+}
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+    margin: 0 5px;
+    display: inline-block;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    content: ''}
+.carousel .control-disabled.control-arrow {
+    opacity: 0;
+    cursor: inherit;
+    display: none;
+}
+.carousel .control-prev.control-arrow {
+    left: 0;
+}
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #fff;
+}
+.carousel .control-next.control-arrow {
+    right: 0;
+}
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid #fff;
+}
+.carousel {
+    position: relative;
+    width: 100%}
+.carousel * {
+    box-sizing: border-box;
+}
+.carousel img {
+    width: 100%;
+    display: inline-block;
+    pointer-events: none;
+}
+.carousel .carousel {
+    position: relative;
+}
+.carousel .control-arrow {
+    outline: 0;
+    border: 0;
+    background: 0 0;
+    top: 50%;
+    margin-top: -13px;
+    font-size: 18px;
+}
+.carousel .thumbs-wrapper {
+    margin: 20px;
+    overflow: hidden;
+}
+.carousel .thumbs {
+    transition: all .15s ease-in;
+    transform: translate3d(0, 0, 0);
+    position: relative;
+    list-style: none;
+    white-space: nowrap;
+}
+.carousel .thumb {
+    transition: border .15s ease-in;
+    display: inline-block;
+    width: 80px;
+    margin-right: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 3px solid #fff;
+    padding: 2px;
+}
+.control-dots li,
+.slider .slide{
+    padding: 0px !important;
+    outline: none;
+}
+.carousel .thumb:focus {
+    border: 3px solid #ccc;
+    outline: 0;
+}
+.carousel .thumb.selected, .carousel .thumb:hover {
+    border: 3px solid #333;
+}
+.carousel .thumb img {
+    vertical-align: top;
+}
+.carousel.carousel-slider {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
+.carousel.carousel-slider .control-arrow {
+    top: 0;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+}
+.carousel.carousel-slider .control-arrow:hover {
+    background: rgba(0, 0, 0, .2);
+}
+.carousel .slider-wrapper {
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    transition: height .15s ease-in;
+}
+.carousel .slider-wrapper.axis-horizontal .slider {
+    -ms-box-orient: horizontal;
+    display: -moz-flex;
+    display: flex;
+}
+.carousel .slider-wrapper.axis-horizontal .slider .slide {
+    flex-direction: column;
+    flex-flow: column;
+}
+.carousel .slider-wrapper.axis-vertical {
+    -ms-box-orient: horizontal;
+    display: -moz-flex;
+    display: flex;
+}
+.carousel .slider-wrapper.axis-vertical .slider {
+    flex-direction: column;
+}
+.carousel .slider {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+    width: 100%}
+.carousel .slider.animated {
+    transition: all .35s ease-in-out;
+}
+.carousel .slide {
+    height: 660px;
+    min-width: 100%;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+.carousel .slide img {
+    width: 100%;
+    vertical-align: top;
+    border: 0;
+}
+.carousel .slide iframe {
+    display: inline-block;
+    width: calc(100% - 80px);
+    margin: 0 40px 40px;
+    border: 0;
+}
+.carousel .slide .legend {
+    transition: all .5s ease-in-out;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    opacity: .25;
+    transition: opacity .35s ease-in-out;
+}
+.control-dots{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px !important
+}
+
+.carousel .control-dots {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px 0;
+    width: 100%}
+@media (min-width:960px) {
+    
+    .carousel .control-dots {
+    bottom: 0;
+}
+}.carousel .control-dots .dot {
+    transition: opacity .25s ease-in;
+    opacity: .3;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .9);
+    background: #fff;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 8px;
+}
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+    opacity: 1;
+}
+.carousel .carousel-status {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .9);
+    color: #fff;
+}
+.carousel:hover .slide .legend {
+    opacity: 1;
+}
+
+@media  (max-width: 768px){
+    .carousel .slider-wrapper{
+        height:580px;
+    }
+    .information-navigation{
+        display:flex
+    }
+
+    .georgia-container{
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        min-width:0px;
+        width: 90%;
+        height: 492px;
+    }
+    .georgia-information-mobile{
+        display: block !important;
+        height: 55%;
+        border-bottom: 1px solid #f2f2f2;
+    }   
+   
+    .carousel .slide img {
+        height: 650px;
+    }
+    .header{
+        height:  60px;
+        width: 100%;
+        padding: 0;
+        padding-top: 20px;
+        height: 20%;
+    }
+    .header-text{
+        font-size: 27px;
+        width: 100%;
+        margin: 0;
+    }
+    .header .flags{
+        margin-left: 20px;
+        padding-right: 20px;
+        min-width: 80px;
+
+    }
+    
+.carousel .control-dots {
+    transform: translate(-50%, -50%);
+    bottom: 0%;
+    left: 7%;
+    padding: 0% !important;
+    margin: 10px 0 !important;
+    width: 100%
+}
+.georgia-information-container{
+    display: none;
+}
+.information-navigation{
+    display: flex !important;
+    justify-content: center;
+    height: 20%;
+}
+.georgia-background{
+    margin-bottom: 0px;
+}
+}
+
+@media only screen and (max-width: 349px){
+    .header-text{
+        font-size:21px;
+    }
+
+}

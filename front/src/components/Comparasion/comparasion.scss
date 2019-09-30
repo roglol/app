@@ -1,0 +1,229 @@
+body{
+    background-image: linear-gradient(153deg, #FFFFFF, #EBF2FF);
+}
+.comparasion-container{
+    background: linear-gradient(180deg, #FFFFFF, #EBF2FF);
+    padding-top:230px;
+}
+.comparasion-header h3{
+    text-align: center;
+    color: #c4c9d3;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.statistics-container img{
+    width:103px;
+}
+.comparasion-header h2{
+    color: #3068f3;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
+.comparasion-description {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    max-width: 53%;
+    opacity: 0.7;
+    color: #7b7d85;
+    font-family: "Poppins";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+.statistics-container{
+    display: flex;
+    justify-content: space-between;  
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.statistic-container{
+    cursor: pointer;
+    padding-left:15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: 128px;
+    background: #fff;
+    border-radius: 10px;
+}
+.statistics-container .statistics-description{
+margin-left:5px;
+}
+.statistic-container:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+}
+.statistic-header h3 {
+    color: #3068f3;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.statistic-header p{
+    width: 225px;
+    opacity: 0.7;
+    color: #bbbcbc;
+    font-family: "Poppins";
+    font-size: 9px;
+    font-weight: 400;
+}
+@media only screen and (max-width: 1150px){
+    .statistics-container {
+        display: flex;
+        // justify-content: flex-start;
+        overflow-x: auto;
+        width: 100%;
+        margin:auto;
+    }
+    .statistic-container {
+        display: block;
+        height: 364px;
+        margin-right: 20px;
+        flex: 0 0 308px;
+    }
+    .statistic-container img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 168px;
+    }
+    .statistic-header{
+        margin-top: 50px;
+    
+    }
+    .statistic-header h3{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .statistic-header p{
+        font-size: 14px;
+      display: block;
+         margin:  0 auto;
+         text-align: center;
+    }
+    }
+
+    @media only screen and (max-width: 885px){
+.statistic-container:nth-child(1){
+    margin-left:180px;
+}
+
+    }
+
+@media only screen and (max-width: 768px) and (min-width:350px) {
+    .comparasion-container{
+        background: #f4f8ff;
+        padding-top: 50px;
+    }
+    .statistic-container:nth-child(1){
+        margin-left:20px;
+    }
+    
+.comparasion-header h3{
+    font-size: 22px;
+}
+.comparasion-header h2{
+    font-size: 25px;
+}
+
+.statistics-container{
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    width: 100%;
+}
+.statistic-container{
+    display: block;
+    height: 364px;
+    margin-left: 20px;
+
+    flex: 0 0 308px;
+}
+.statistic-container img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 168px;
+}
+.statistic-header{
+    margin-top: 50px;
+
+}
+.statistic-header h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.statistic-header p{
+    font-size: 14px;
+  display: block;
+     margin:  0 auto;
+     text-align: center;
+}
+}
+
+@media only screen and (max-width: 349px) {
+    .comparasion-container{
+        background: #f4f8ff;
+        padding-top: 20px;
+    }
+    .comparasion-header h3{
+        font-size: 18px;
+    }
+    .comparasion-header h2{
+        font-size: 22px;
+    }
+    .comparasion-description{
+        display: none;
+    }
+    .statistics-container{
+        display: flex;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .statistic-container {
+        display: block;
+        height: 260px;
+        flex: 0 0 220px;
+    }
+    .statistic-container:first-child{
+        margin-left: 20px;
+
+    }
+    .statistic-container img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 88px;
+    }
+    .statistic-header{
+        margin-top: 30px;
+    
+    }
+    .statistic-header h3{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .statistic-header p{
+        font-size: 10px;
+      display: block;
+         margin:  0 auto;
+         text-align: center;
+         width: 80%
+    }
+    
+   
+}

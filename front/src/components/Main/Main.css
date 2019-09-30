@@ -1,0 +1,369 @@
+
+.mainsection {
+ background: linear-gradient(180deg, #EAF1FF, #FFFFFF);
+ position: relative;
+ z-index:66;
+ height:700px;
+}
+
+.mainsection  .section{
+    display: flex;
+    max-width: 78.1%;
+    margin: auto;
+    margin-top:100px;
+}
+.mainheader .hheader{
+    display:block!important
+}
+
+/* .mainsection  .section >div:nth-child(3){
+    background: #3068f3;
+    
+} */
+.mainsection  .section >div:nth-child(3) h1{
+    margin-top:30px;
+    /* color: #ffffff; */
+}
+/* .mainsection  .section >div:nth-child(3) p{
+    color: #ffffff;
+} */
+
+.mainsection  .hheader h1{
+    margin:auto;
+    width: 520.7px;
+    height: 68px;
+    color: #3068f3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    padding-top:76px;
+}
+.mainsection  .hheader p{
+    margin: auto;
+    opacity: 0.5015346;
+    width: 60%;
+    height: 54px;
+    color: #7b7d85;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.49792px;
+    text-align: center;
+}
+.mainsection  .main_icon{
+    margin-top:10px;
+    border-radius:70px 70px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 78px;
+    height: 78px;
+    background: #3068f3;
+    box-shadow: 28px 7px 14px rgba(0,0,0,0.11);
+}
+.mainsection  .main_icon .img{
+    width:28px;
+    height:28px;
+}
+
+.mainsection  .section div:hover .main_icon{
+    background: #ffffff;
+}
+.mainsection  .section div:hover  p{
+    color: #ffffff;
+}
+.mainsection  .section div:hover h1{
+    color: #ffffff;
+}
+.mainsection  .section div:hover h2{
+    color: #ffffff;
+}
+.mainsection  .section div:hover {
+    background: #3068f3;
+}
+.mainsection  .section div:nth-child(1) .img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/global_white.png') 
+}
+.mainsection  .section div:nth-child(1):hover .img{
+    background:none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/global.png') 
+}
+.mainsection  .section div:nth-child(2) .img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://a.icons8.com/bbidqncP/c2zf0D/sprout.png') 
+}
+.mainsection  .section div:nth-child(2):hover .img{
+    background:none;
+    background-size:cover;
+background-image: url('../../assets/sprout.png')
+}
+.mainsection  .section div:nth-child(3) .img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/technical-support.png') 
+}
+.mainsection  .section div:nth-child(3):hover .img{
+    background:none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://a.icons8.com/wmYOnbbw/kNIPoI/technical-support.png') 
+}
+.mainsection  .section div:nth-child(4) .img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://a.icons8.com/wmYOnbbw/jVObma/layers-icon.png') 
+}
+.mainsection  .section div:nth-child(4):hover .img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/layers-icon.png') 
+}
+.mainsection   .section >div{
+    cursor:pointer;
+    box-sizing: border-box;
+    padding-top: 35px;
+    width: 24%;
+    min-width: 20%;
+    margin-right: 30px;
+    height: 376px;
+    border-radius: 7.11px;
+    background: #ffffff;
+    box-shadow: 0px 0px 14px rgba(0,0,0,0.08);
+}
+.mainsection  .section >div:last-child{
+    margin-right:0px;
+}
+
+.mainsection  .section >div h1{
+    margin: 20px 0px 10px 0px;
+    color: #3068f3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+.mainsection   .section >div h2{
+    margin-bottom:10px;
+    color: #3068f3;
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+
+.mainsection  .section >div p{
+    width: 84.5%;
+    margin:auto;
+  color: #a6a6a6;
+  font-family:'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.94063px;
+  text-align: center;
+}
+
+.mainsection  .section >div:first-child h1{
+margin-bottom:0px;
+height:25px;
+}
+.mainsection  .section >div:nth-child(2) h1{
+    margin-bottom:10px;
+    margin-top:33px;
+}
+.mainsection  .section >div:nth-child(4) h1{
+    margin-bottom:18px;
+    margin-top:21px;
+}
+
+@media only screen and (max-width: 1600px){
+    .mainsection .section{
+        width:82.1%;
+        max-width:75.1%
+    }
+}
+@media only screen and (max-width: 1440px){
+    .mainsection .section{
+        width: 78.1%;
+        max-width: 78.1%;
+    }
+}
+@media only screen and (max-width: 1366px){
+    .mainsection{
+        height:610px;
+    }
+    .mainsection .section{
+        width: 78.1%;
+        max-width: 78.1%;
+    }
+    .mainsection .hheader h1{
+        width:433px;
+        font-size:20px;
+    }
+    .mainsection .hheader p{
+        font-size:12px;
+        width:70%;
+        line-height:18.49px;
+    }
+    .mainsection .section{
+        margin-top:76px;
+    }
+
+    .mainsection .section >div{
+        height:307px;
+        padding-top:25px;
+        min-width:245px;
+        margin-right:25px;
+    }
+    .mainsection .section >div p{
+        width:88.5%;
+        font-size:10px;
+    }
+    .mainsection .section >div:nth-child(2) h1 {
+margin-top:44px;
+    }
+    .mainsection .section >div:nth-child(4) h1 {
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+.mainsection .section {
+    width: 100%;
+    max-width: 100%;
+}
+}
+@media only screen and (max-width: 1150px) {
+    .mainsection .section{
+        overflow:auto;
+        box-sizing:border-box;
+    }
+    .mainsection  .section >div:nth-child(1){
+        margin-left:20px;
+    }
+    .mainsection  .section >div:nth-child(4){
+        margin-right:20px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .mainsection .section {
+        width:100%;
+        max-width:100%;
+    }
+    .mainsection .section >div{
+        min-width:190px;
+    }
+    .mainsection .hheader p {
+        width: 580px;
+        font-size: 12px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .mainsection .main{
+        height:565px;
+    }
+    .mainsection  .hheader h1{
+        padding-top: 42px;
+        width: 490px;
+        font-size: 22px;
+   }
+   .mainsection  .section{
+       padding:0px 20px;
+   }
+
+   .mainsection .section >div{
+       min-width: 245px;
+   }
+   .navheader .container .info .upper_logo {
+    display:block;
+}
+
+   .mainsection  .hheader p{
+       width:525px;
+       font-size:13px;
+   }
+
+}
+
+
+@media only screen and (max-width: 550px) {
+    .mainsection  .hheader h1{
+        width: 346.26px !important;
+        font-size: 18px;
+     }
+     .mainsection  .hheader p{
+        width: 404px !important;
+        font-size: 12px;
+     }
+
+     .mainsection  .hheader h1 {
+        width: 308px;
+        font-size: 16px;
+        line-height:24px;
+    }
+
+    .mainsection  .hheader p {
+        width: 308px !important;
+        font-size: 10px;
+    }
+   
+}
+
+@media only screen and (max-width: 500px) {
+    .founder_image img:nth-child(3) {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 340.54px;
+        top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+    }
+    .founder_image img:nth-child(2) {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 232.34px;
+        top: 92px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .founder_image img:nth-child(4) {
+        position: absolute;
+        left: 14px;
+        right: 0;
+        height: 165.48px;
+        top: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 360px) {
+.mainsection .hheader h1{
+    width:321px !important;
+}
+
+.mainsection .hheader p{
+    width:308px !important;
+    margin-top:10px;
+}
+ .main{
+    height: 580px !important;
+}
+
+}
+
+
